@@ -1,0 +1,47 @@
+body{
+    background-color: tomato;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    background-color: salmon;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgb(120, 108, 108);
+    width: 400px;
+}
+
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: gold;
+}
+
+.text-1{
+    display: flex;
+    justify-content: space-between; 
+    font-family: 'Courier New', Courier, monospace;
+    color:gold;
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+    height: 100px;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid 2px darkgray;
+}
+
+span{
+    color: green;
+}
+
+
+
