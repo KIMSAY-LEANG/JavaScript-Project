@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, .3)
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input input{
+    padding: 10px;
+    border: solid 2px green;
+    font-size: 20px;
+    text-align: center;
+}
+
+.input input::placeholder{
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn{
+    padding: 10px;
+    background-color: green;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.btn:hover{
+     filter: brightness(0.9);
+}
+
+h4{
+    text-align: end;
+    color: green;
+}
+
+
+
+
